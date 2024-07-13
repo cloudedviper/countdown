@@ -10,7 +10,7 @@ document.getElementById('startButton').addEventListener('click', function() {
             timerDisplay.textContent = time;
             time--;
         } else {
-            timerDisplay.textContent = 'Time\'s up!';
+            timerDisplay.textContent = `Time's up!`;
             clearInterval(timerInterval);
         }
     }, 1000);
